@@ -26,8 +26,9 @@ export function FinalCTA() {
           </h2>
 
           <p className="text-xl text-gray-300 mb-8">
-            Join thousands of developers who've reclaimed their time
-          </p>
+            {/* Join thousands of developers who've reclaimed their time */}
+            Stop letting your documentation go stale
+            </p>
 
           <Button variant="primary" href="https://github.com/apps/document-gen" className="text-lg">
             Install GitHub App

@@ -13,7 +13,7 @@ const features = [
   {
     icon: Bot,
     title: 'AI That Understands',
-    description: 'Analyzes your architecture, routes, and dependencies to generate accurate docs.',
+    description: 'Analyzes structure, dependencies, and architecture not just files for accurate docs.',
   },
   {
     icon: RefreshCw,

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Download, FolderGit2, GitBranch, FileText } from 'lucide-react';
+import { Download, FolderGit2, GitBranch, FileText, GitMerge } from 'lucide-react';
 import { Section } from './Section';
 
 const steps = [
@@ -23,6 +23,11 @@ const steps = [
     icon: FileText,
     title: 'Get Comprehensive Docs',
     description: 'AI analyzes your code and creates a PR with documentation',
+  },
+  {
+    icon: GitMerge,
+    title: 'You review and merge',
+    description: 'Full control stays with you',
   },
 ];
 
