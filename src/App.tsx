@@ -7,6 +7,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { FAQ } from './components/FAQ';
 import { FinalCTA } from './components/FinalCTA';
 import { Footer } from './components/Footer';
+import { Demo } from './components/Demo';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <Demo />
       <HowItWorks />
       {/* <Pricing /> */}
       {/* <SocialProof /> */}
