@@ -1,10 +1,10 @@
 import { FileCode2, Github, Twitter } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Footer() {
   const links = [
     // { name: 'Documentation', href: '#' },
     { name: 'GitHub', href: 'https://github.com/document-gen' },
-    // { name: 'Twitter', href: 'https://twitter.com/documentgen' },
     { name: 'Support: dev.devesh326@gmail.com', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=dev.devesh326@gmail.com&su=Document-Gen%20Support',
     target: '_blank'  // Open in new tab 
     },
@@ -21,6 +21,13 @@ export function Footer() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6">
+            <Link
+                key='Privacy-Policy'
+                to="/privacy-policy"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                Privacy Policy
+              </Link>
             {links.map((link) => (
               <a
                 key={link.name}

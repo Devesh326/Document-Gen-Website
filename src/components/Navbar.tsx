@@ -2,15 +2,16 @@ import { motion } from 'framer-motion';
 import { FileCode2, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Features', href: '#features' },
-    { name: 'How It Works', href: '#how-it-works' },
-    { name: 'FAQ', href: '#faq' },
-    // { name: 'Pricing', href: '#pricing' },
+    { name: 'Features', href: '/#features' },
+    { name: 'How It Works', href: '/#how-it-works' },
+    { name: 'FAQ', href: '/#faq' },
+    // { name: 'Pricing', href: '/#pricing' },
   ];
 
   return (
@@ -23,7 +24,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <FileCode2 className="w-8 h-8 text-purple-500" />
-            <span className="text-xl font-bold text-white">Document-Gen</span>
+            <Link className="text-xl font-bold text-white" to="/">Document-Gen</Link>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
