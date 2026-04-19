@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Section } from '../components/Section';
-import ScrollToTop from '../components/ScrollToTop';
 
 export function PrivacyPolicy() {
   const [ref, inView] = useInView({
@@ -9,7 +8,6 @@ export function PrivacyPolicy() {
     threshold: 0.1,
   });
 
-  ScrollToTop();
 
   return (
     <Section id="privacy-policy" className="py-20 md:py-32 bg-black">
@@ -296,7 +294,7 @@ export function PrivacyPolicy() {
                 For questions or concerns about this policy, contact:
               </p>
               <p className="font-mono text-purple-400">
-                support@document-gen.ai
+                dev.devesh326@gmail.com
               </p>
             </div>
           </Section>

@@ -17,7 +17,9 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <FileCode2 className="w-6 h-6 text-purple-500" />
-            <span className="text-lg font-bold text-white">Document-Gen</span>
+            <Link className="text-lg font-bold text-white" to="/">
+              Document-Gen
+            </Link>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6">

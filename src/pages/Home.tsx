@@ -1,4 +1,3 @@
-import { Navbar } from '../components/Navbar';
 import { Hero } from '../components/Hero';
 import { Features } from '../components/Features';
 import { HowItWorks } from '../components/HowItWorks';
@@ -6,7 +5,6 @@ import { HowItWorks } from '../components/HowItWorks';
 // import { SocialProof } from './components/SocialProof';
 import { FAQ } from '../components/FAQ';
 import { FinalCTA } from '../components/FinalCTA';
-import { Footer } from '../components/Footer';
 import { Demo } from '../components/Demo';
 
 function Home() {
