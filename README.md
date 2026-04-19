@@ -5,6 +5,7 @@ This project is a feature-rich React application template built with TypeScript 
 ## Features
 
 *   **Interactive Animations:** Powered by `framer-motion` for smooth UI transitions.
+*   **Routing:** Seamless client-side navigation powered by `react-router-dom`.
 *   **Diagram Support:** Built-in integration with `mermaid` for rendering flowcharts and sequence diagrams.
 *   **Markdown Rendering:** Full support for Markdown content using `react-markdown` and `remark-gfm`.
 *   **Syntax Highlighting:** Beautiful code block rendering with `react-syntax-highlighter`.
@@ -19,6 +20,7 @@ This project is a feature-rich React application template built with TypeScript 
 *   **Build Tool:** Vite
 *   **Styling:** Tailwind CSS, Autoprefixer
 *   **Animation:** Framer Motion
+*   **Routing:** React Router
 *   **Tooling:** ESLint, PostCSS
 
 ## Architecture
