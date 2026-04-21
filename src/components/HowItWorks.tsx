@@ -39,7 +39,7 @@ export function HowItWorks() {
           How it works
         </h2>
         <p className="text-xl text-gray-400">
-          From installation to documentation in 4 simple steps
+          From installation to documentation in 5 simple steps
         </p>
       </div>
 
@@ -76,7 +76,7 @@ export function HowItWorks() {
                 {index === 0 && (
                   <div className="mt-4 bg-white/5 backdrop-blur-lg border border-white/10 rounded-lg p-4">
                     <div className="text-sm text-gray-400">GitHub Marketplace</div>
-                    <div className="text-purple-400 font-mono text-sm mt-2">marketplace.github.com/apps/document-gen</div>
+                    <div className="text-purple-400 font-mono text-sm mt-2">github.com/apps/document-gen</div>
                   </div>
                 )}
 
