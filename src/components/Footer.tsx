@@ -45,7 +45,7 @@ export function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/document-gen"
+              href="https://github.com/Devesh326"
               className="text-gray-400 hover:text-white transition-colors"
               aria-label="GitHub"
             >
